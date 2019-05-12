@@ -82,6 +82,19 @@
                             </ul>
                         </div>
 
+                <!-- sidebar menu -->
+                <div class="main_menu_side hidden-print main_menu" id="sidebar-menu">
+                    <div class="menu_section">
+                        <h3>General</h3>
+                        <ul class="nav side-menu">
+                            <li><a><i class="fa fa-usd"></i> Payroll <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="index.html">Service</a></li>
+                                    <li><a href="loans.php">Loans</a></li>
+                                    <li><a href="reports.php">Reports</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <!-- /sidebar menu -->
 
@@ -115,6 +128,70 @@
                                 </ul>
                             </li>
 
+                            <li class="dropdown" role="presentation">
+                                <a aria-expanded="false" class="dropdown-toggle info-number" data-toggle="dropdown" href="javascript:;">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <span class="badge bg-green">6</span>
+                                </a>
+                                <ul class="dropdown-menu list-unstyled msg_list" id="menu1" role="menu">
+                                    <li>
+                                        <a>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
+                                            <span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
+                                            <span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
+                                            <span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
+                                            <span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
+                                            </span>
+                                            <span class="message">
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <div class="text-center">
+                                            <a>
+                                                <strong>See All Alerts</strong>
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -158,6 +235,58 @@
                                 </div>
                             </div>
                         </div>
+<<<<<<< HEAD:production/index.html
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="x_content">
+                        <h1 class="text-muted font-13 m-b-30">
+                            Employees
+                        </h1>
+                    </div>
+                    <table cellspacing="0" class="table table-striped table-bordered dt-responsive nowrap"
+                           id="datatable-responsive" width="100%">
+                        <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>First name</th>
+                            <th>Last name</th>
+                            <th>Position</th>
+                            <th>Grade</th>
+                            <th>Scale</th>
+                            <th>Office</th>
+                            <th>Employment Type</th>
+                            <th>Start date</th>
+                            <th>Date of expiry</th>
+                            <th colspan="3">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Tiger</td>
+                            <td>Nixon</td>
+                            <td>System Architect</td>
+                            <td>17</td>
+                            <td>-</td>
+                            <td>Edinburgh</td>
+                            <td>Permanent</td>
+                            <td>2011/04/25</td>
+                            <td>-</td>
+                            <td>
+                                <a class="btn btn-primary btn-round" href="payslip.php">Pay Slip</a>
+                                <a class="btn btn-danger btn-round" href="allowance.php">Allowance</a>
+                                <a class="btn btn-dark btn-round" href="deduction.php">Deduction</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+=======
 
                     </form>
                 </div>
@@ -209,11 +338,22 @@
 
 
                 </div>
+>>>>>>> 75baa0865f29ff6dff843c13420d3bd2db5f05c4:production/index.html
             </div>
         </div>
     </div>
     <!-- /page content -->
 
+<<<<<<< HEAD:production/index.html
+<!-- footer content -->
+<footer>
+    <div class="pull-right">
+        HEMIS - <a href="index.html">Payroll System</a>
+    </div>
+    <div class="clearfix"></div>
+</footer>
+<!-- /footer content -->
+=======
     <!-- footer content -->
     <footer>
         <div class="pull-right">
@@ -222,6 +362,7 @@
         <div class="clearfix"></div>
     </footer>
     <!-- /footer content -->
+>>>>>>> 75baa0865f29ff6dff843c13420d3bd2db5f05c4:production/index.html
 
 
     <!-- jQuery -->

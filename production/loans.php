@@ -69,7 +69,7 @@
                             <ul class="nav side-menu">
                                 <li><a><i class="fa fa-usd"></i> Payroll <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="index.php">Service</a></li>
+                                        <li><a href="index.html">Service</a></li>
                                         <li><a href="loans.php">Loans</a></li>
                                         <li class="nav subside-menu">
                                             <a> Reports <span class="fa fa-chevron-down"></span></a>
