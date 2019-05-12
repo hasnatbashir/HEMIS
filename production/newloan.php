@@ -74,7 +74,7 @@
                                                 <li><a href="comparativereport.html">Comparative Report</a></li>
                                                 <li><a href="employeesreport.html">Employees Report</a></li>
                                                 <li><a href="incometaxreport.html">Income Tax Report</a></li>
-                                                
+
                                             </ul>
                                         </li>
                                     </ul>
@@ -115,70 +115,6 @@
                                 </ul>
                             </li>
 
-                            <li class="dropdown" role="presentation">
-                                <a aria-expanded="false" class="dropdown-toggle info-number" data-toggle="dropdown" href="javascript:;">
-                                    <i class="fa fa-envelope-o"></i>
-                                    <span class="badge bg-green">6</span>
-                                </a>
-                                <ul class="dropdown-menu list-unstyled msg_list" id="menu1" role="menu">
-                                    <li>
-                                        <a>
-                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
-                                            <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
-                                            <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
-                                            <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>
-                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
-                                            <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
-                                            </span>
-                                            <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <div class="text-center">
-                                            <a>
-                                                <strong>See All Alerts</strong>
-                                                <i class="fa fa-angle-right"></i>
-                                            </a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -196,52 +132,38 @@
 
                                     <form class="form-horizontal form-label-left" novalidate>
 
-                                        <span class="section">Allowances</span>
+                                        <span class="section">New Loan</span>
 
                                         <div class="item form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input1">Loan Ammount
                                             </label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input1" min="0" name="Medical" type="number" value="0">
+                                                <input class="form-control col-md-7 col-xs-12" id="input1" min="0" name="amount" type="number" value="0">
                                             </div>
                                         </div>
                                         <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input2">Travel
-                                                Allowance
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input2">Loan Type
                                             </label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input2" min="0" name="Travel" type="number" value="0">
+                                                <select class="form-control col-md-7 col-xs-12" id="input2" name="type">
+                                                    <option>Loan</option>
+                                                    <option>Advance</option>
+                                                    <option>GP Fund Withdrawal</option>
+                                                </select>
                                             </div>
                                         </div>
                                         <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input3">Home Rent
-                                                Allowance
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input3">Interest Rate (%)
                                             </label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input3" min="0" name="rent" type="number" value="0">
+                                                <input class="form-control col-md-7 col-xs-12" id="input3" min="0" name="interestrate" type="number" value="0">
                                             </div>
                                         </div>
                                         <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input4">Special
-                                                Allowance
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input4">No. of Installments
                                             </label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input4" min="0" name="special" type="number" value="0">
-                                            </div>
-                                        </div>
-                                        <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input5">Child Educ
-                                                Allowance
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input5" min="0" name="education" type="number" value="0">
-                                            </div>
-                                        </div>
-                                        <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input6">Servant Allowance
-                                            </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input6" min="0" name="servant" type="number" value="0">
+                                                <input class="form-control col-md-7 col-xs-12" id="input4" min="0" name="installments" type="number" value="0">
                                             </div>
                                         </div>
                                         <div class="ln_solid"></div>
