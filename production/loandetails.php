@@ -122,12 +122,12 @@
                                         <li class="nav subside-menu">
                                             <a> Reports <span class="fa fa-chevron-down"></span></a>
                                             <ul class="nav side-menu">
-                                                <li><a href="editreport.html">Edit Report</a></li>
-                                                <li><a href="paymentreport.html">Payment Report</a></li>
-                                                <li><a href="arrearreport.html">Arrear Report</a></li>
-                                                <li><a href="comparativereport.html">Comparative Report</a></li>
-                                                <li><a href="employeesreport.html">Employees Report</a></li>
-                                                <li><a href="incometaxreport.html">Income Tax Report</a></li>
+                                                <li><a href="editreport.php">Edit Report</a></li>
+                                                <li><a href="paymentreport.php">Payment Report</a></li>
+                                                <li><a href="arrearreport.php">Arrear Report</a></li>
+                                                <li><a href="comparativereport.php">Comparative Report</a></li>
+                                                <li><a href="employeesreport.php">Employees Report</a></li>
+                                                <li><a href="incometaxreport.php">Income Tax Report</a></li>
                                                 
                                             </ul>
                                         </li>

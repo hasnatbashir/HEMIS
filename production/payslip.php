@@ -9,7 +9,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="images/favicon.ico" rel="icon" type="image/ico" />
 
-    <title>Deduction</title>
+    <title>Pay Slip</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -120,73 +120,131 @@
                 </div>
             </div>
             <!-- /top navigation -->
-
+            <!-- page content -->
             <div class="right_col" role="main">
-                <div class="">
-                    <div class="clearfix"></div>
+                <div class="col-md col-sm col-xs">
+                    <div class="x_panel">
+                        <div class="x_title">
+                            <h1>Salary</h1>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
 
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div class="x_panel">
-                                <div class="x_content">
+                            <table class="table table-striped">
+                                <tbody>
+                                    <tr>
+                                        <th>Basic Salary</th>
+                                        <td>12,000</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Allowance</th>
+                                        <td>12,000</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Deduction</th>
+                                        <td>4,000</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Salary</th>
+                                        <td>20,000</td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
-                                    <form class="form-horizontal form-label-left" novalidate>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h1>Allowances</h1>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
 
-                                        <span class="section">Deductions</span>
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <th>Medical Allowance</th>
+                                            <td>4,000</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Travel Allowance</th>
+                                            <td>2,000</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Home Rent Allowance</th>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Special Allowance</th>
+                                            <td>2,000</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Child Educ Allowance</th>
+                                            <td>3,000</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Servant Allowance</th>
+                                            <td>1,000</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Total allowances</th>
+                                            <td style="font-weight: bold">12,000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
 
-                                        <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input1">Professional Tax
-                                        </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input1" min="0" name="ptax" type="number" value="0">
-                                            </div>
-                                        </div>
-                                        <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input2">Income Tax
-                                        </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input2" min="0" name="itax" type="number" value="0">
-                                            </div>
-                                        </div>
-                                        <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input3">Provident Fund
-                                        </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input3" min="0" name="fund" type="number" value="0">
-                                            </div>
-                                        </div>
-                                        <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input4">Advances/Loans
-                                        </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input4" min="0" name="advances" type="number" value="0">
-                                            </div>
-                                        </div>
-                                        <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input5">Other Deduction
-                                        </label>
-                                            <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input5" min="0" name="other" type="number" value="0">
-                                            </div>
-                                        </div>
-                                        <div class="ln_solid"></div>
-                                        <div class="form-group">
-                                            <div class="col-md-6 col-md-offset-3">
-                                                <button class="btn btn-primary" type="submit">Cancel</button>
-                                                <button class="btn btn-success" id="send" type="submit">Submit
-                                            </button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h1>Deductions</h1>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Professional Tax</th>
+                                            <td>1,000</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Income Tax</th>
+                                            <td>2,000</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Provident Fund</th>
+                                            <td>500</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Advances/Loans</th>
+                                            <td>0</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Other deductions</th>
+                                            <td>500</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Total deductions</th>
+                                            <td style="font-weight: bold">4,000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- /page content -->
         </div>
     </div>
-    <!-- /page content -->
 
     <!-- footer content -->
     <footer>
