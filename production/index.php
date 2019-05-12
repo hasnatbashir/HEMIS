@@ -197,8 +197,8 @@
                                 <td>2011/04/25</td>
                                 <td>-</td>
                                 <td>
-                                    <a class="btn btn-primary" href="payslip.html">Pay Slip</a>
-                                    <a class="btn btn-success" href="allowance.html">Allowance</a>
+                                    <a class="btn btn-primary" href="payslip.php">Pay Slip</a>
+                                    <a class="btn btn-success" href="allowance.php">Allowance</a>
                                     <a class="btn btn-dark" href="deduction.php">Deduction</a>
                                 </td>
                             </tr>
