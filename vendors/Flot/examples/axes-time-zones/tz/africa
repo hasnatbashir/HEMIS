@@ -1070,7 +1070,7 @@ Zone	Africa/Lome	0:04:52 -	LMT	1893
 # The daylight saving time will be the same each year:
 # Beginning      : the last Sunday of March at 02:00
 # Ending         : the last Sunday of October at 03:00 ...
-# http://www.tap.info.tn/en/index.php?option=com_content&task=view&id=1188&Itemid=50
+# http://www.tap.info.tn/en/index.html?option=com_content&task=view&id=1188&Itemid=50
 
 # From Steffen Thorsen (2009-03-16):
 # According to several news sources, Tunisia will not observe DST this year.
@@ -1094,13 +1094,13 @@ Zone	Africa/Lome	0:04:52 -	LMT	1893
 # Standard time to be kept the whole year long (tap.info.tn):
 #
 # (in English)
-# <a href="http://www.tap.info.tn/en/index.php?option=com_content&task=view&id=26813&Itemid=157">
-# http://www.tap.info.tn/en/index.php?option=com_content&task=view&id=26813&Itemid=157
+# <a href="http://www.tap.info.tn/en/index.html?option=com_content&task=view&id=26813&Itemid=157">
+# http://www.tap.info.tn/en/index.html?option=com_content&task=view&id=26813&Itemid=157
 # </a>
 #
 # (in Arabic)
-# <a href="http://www.tap.info.tn/ar/index.php?option=com_content&task=view&id=61240&Itemid=1">
-# http://www.tap.info.tn/ar/index.php?option=com_content&task=view&id=61240&Itemid=1
+# <a href="http://www.tap.info.tn/ar/index.html?option=com_content&task=view&id=61240&Itemid=1">
+# http://www.tap.info.tn/ar/index.html?option=com_content&task=view&id=61240&Itemid=1
 # </a>
 
 # From Arthur David Olson (2009--3-18):

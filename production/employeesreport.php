@@ -37,7 +37,7 @@
             <div class="col-md-3 left_col">
                 <div class="left_col scroll-view">
                     <div class="navbar nav_title" style="border: 0;">
-                        <a class="site_title" href="index.html"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                        <a class="site_title" href="index.php"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -63,7 +63,7 @@
                             <ul class="nav side-menu">
                                 <li><a><i class="fa fa-usd"></i> Payroll <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="index.html">Service</a></li>
+                                        <li><a href="index.php">Service</a></li>
                                         <li><a href="loans.php">Loans</a></li>
                                         <li class="nav subside-menu">
                                             <a> Reports <span class="fa fa-chevron-down"></span></a>
@@ -380,7 +380,7 @@
         <!-- footer content -->
         <footer>
             <div class="pull-right">
-                HEMIS - <a href="index.html">Payroll System</a>
+                HEMIS - <a href="index.php">Payroll System</a>
             </div>
             <div class="clearfix"></div>
         </footer>

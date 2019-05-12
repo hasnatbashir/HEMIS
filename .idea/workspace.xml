@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/allowance.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/allowance.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/deduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/deduction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/loans.php" beforeDir="false" afterPath="$PROJECT_DIR$/production/loans.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/production/payslip.html" beforeDir="false" afterPath="$PROJECT_DIR$/production/payslip.php" afterDir="false" />
     </list>
@@ -23,7 +23,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/production/index.php">
+        <entry file="file://$PROJECT_DIR$/production/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
               <caret line="257" column="56" selection-start-line="257" selection-start-column="56" selection-end-line="257" selection-end-column="56" />
@@ -88,7 +88,7 @@
         <option value="$PROJECT_DIR$/production/index.html" />
         <option value="$PROJECT_DIR$/production/payslip.html" />
         <option value="$PROJECT_DIR$/production/loans.php" />
-        <option value="$PROJECT_DIR$/production/index.php" />
+        <option value="$PROJECT_DIR$/production/index.html" />
       </list>
     </option>
   </component>
@@ -263,7 +263,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/index.php">
+    <entry file="file://$PROJECT_DIR$/production/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="257" column="56" selection-start-line="257" selection-start-column="56" selection-end-line="257" selection-end-column="56" />
