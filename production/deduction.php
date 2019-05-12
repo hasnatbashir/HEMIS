@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/favicon.ico" type="image/ico" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="images/favicon.ico" rel="icon" type="image/ico" />
 
-    <title>Payroll System</title>
+    <title>Deduction</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -27,14 +27,8 @@
     <!-- bootstrap-daterangepicker -->
     <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
-    <!-- Chart.js -->
-    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
-
-
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
-
-
 </head>
 
 <body class="nav-md">
@@ -43,7 +37,7 @@
             <div class="col-md-3 left_col">
                 <div class="left_col scroll-view">
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                        <a class="site_title" href="index.html"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -51,7 +45,7 @@
                     <!-- menu profile quick info -->
                     <div class="profile clearfix">
                         <div class="profile_pic">
-                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                            <img alt="..." class="img-circle profile_img" src="images/img.jpg">
                         </div>
                         <div class="profile_info">
                             <span>Welcome,</span>
@@ -60,16 +54,16 @@
                     </div>
                     <!-- /menu profile quick info -->
 
-                    <br />
+                    <br/>
 
                     <!-- sidebar menu -->
-                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                    <div class="main_menu_side hidden-print main_menu" id="sidebar-menu">
                         <div class="menu_section">
                             <h3>General</h3>
                             <ul class="nav side-menu">
                                 <li><a><i class="fa fa-usd"></i> Payroll <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="index.php">Service</a></li>
+                                        <li><a href="index.html">Service</a></li>
                                         <li><a href="loans.php">Loans</a></li>
                                         <li class="nav subside-menu">
                                             <a> Reports <span class="fa fa-chevron-down"></span></a>
@@ -80,7 +74,7 @@
                                                 <li><a href="comparativereport.html">Comparative Report</a></li>
                                                 <li><a href="employeesreport.html">Employees Report</a></li>
                                                 <li><a href="incometaxreport.html">Income Tax Report</a></li>
-                                                
+
                                             </ul>
                                         </li>
                                     </ul>
@@ -104,8 +98,8 @@
 
                         <ul class="nav navbar-nav navbar-right">
                             <li class="">
-                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <img src="images/img.jpg" alt="">John Doe
+                                <a aria-expanded="false" class="user-profile dropdown-toggle" data-toggle="dropdown" href="javascript:;">
+                                    <img alt="" src="images/img.jpg">John Doe
                                     <span class=" fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -121,58 +115,58 @@
                                 </ul>
                             </li>
 
-                            <li role="presentation" class="dropdown">
-                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                            <li class="dropdown" role="presentation">
+                                <a aria-expanded="false" class="dropdown-toggle info-number" data-toggle="dropdown" href="javascript:;">
                                     <i class="fa fa-envelope-o"></i>
                                     <span class="badge bg-green">6</span>
                                 </a>
-                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                <ul class="dropdown-menu list-unstyled msg_list" id="menu1" role="menu">
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
                                             <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
                                             <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
                                             <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
                                             <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
                                         </a>
                                     </li>
                                     <li>
@@ -191,71 +185,81 @@
             </div>
             <!-- /top navigation -->
 
-            <!-- page content -->
             <div class="right_col" role="main">
-                <!-- top tiles -->
+                <div class="">
+                    <div class="clearfix"></div>
 
-                <!-- /top tiles -->
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_content">
 
-                <div class="row">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <form class="form-horizontal form-label-left" novalidate>
 
-                    <div class="x_content">
-                        <h1 class="text-muted font-13 m-b-30">
-                            Loans
-                        </h1>
+                                        <span class="section">Deductions</span>
+
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input1">Professional Tax
+                                        </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input1" min="0" name="ptax" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input2">Income Tax
+                                        </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input2" min="0" name="itax" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input3">Provident Fund
+                                        </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input3" min="0" name="fund" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input4">Advances/Loans
+                                        </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input4" min="0" name="advances" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input5">Other Deduction
+                                        </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input5" min="0" name="other" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="ln_solid"></div>
+                                        <div class="form-group">
+                                            <div class="col-md-6 col-md-offset-3">
+                                                <button class="btn btn-primary" type="submit">Cancel</button>
+                                                <button class="btn btn-success" id="send" type="submit">Submit
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="#" class="btn btn-success">Add a new loan details</a>
-                    <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Loan Type</th>
-                                <th>Principal Amount</th>
-                                <th>Recovery Rate</th>
-                                <th>Recovery Amount</th>
-                                <th>Outstanding Balance</th>
-                                <th>Installments Paid</th>
-                                <th>Paid to Date</th>
-                                <th>Interest Rate</th>
-                                <th>Interest Amount</th>
-
-                                <th colspan="2">Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Tiger Nixon</td>
-                                <td>Advance</td>
-                                <td>100,000</td>
-                                <td>80%</td>
-                                <td>23,280</td>
-                                <td>23,280</td>
-                                <td>8</td>
-                                <td>80,000</td>
-                                <td>6%</td>
-                                <td>3280</td>
-                                <td><a href="loandetails.php" class="btn btn-success">Details</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
                 </div>
             </div>
         </div>
-        <!-- /page content -->
+    </div>
+    <!-- /page content -->
 
-        <!-- footer content -->
-        <footer>
-            <div class="pull-right">
-                HEMIS - <a href="index.html">Payroll System</a>
-            </div>
-            <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
-    </div>
-    </div>
+    <!-- footer content -->
+    <footer>
+        <div class="pull-right">
+            HEMIS - <a href="index.html">Payroll System</a>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+    <!-- /footer content -->
 
     <!-- jQuery -->
     <script src="../vendors/jquery/dist/jquery.min.js"></script>

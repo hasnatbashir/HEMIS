@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/favicon.ico" type="image/ico" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="images/favicon.ico" rel="icon" type="image/ico" />
 
-    <title>Payroll System</title>
+    <title>Allowance</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -27,62 +27,8 @@
     <!-- bootstrap-daterangepicker -->
     <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
-    <!-- Chart.js -->
-    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
-
-
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
-
-
-    <script>
-        window.onload = function() {
-
-            // Doghnut Chart
-            data = {
-                datasets: [{
-                    backgroundColor: ["#26B99A", "#34495E"],
-                    data: [100000, 3280]
-                }],
-
-                labels: [
-                    'Principal Amount',
-                    'Interest'
-                ]
-            };
-            var ctx = document.getElementById("donutchart");
-            var myDoughnutChart = new Chart(ctx, {
-                type: 'doughnut',
-                data: data,
-                options: Chart.defaults.doughnut
-            });
-
-            // Bar Chart
-
-            data = {
-                labels: ["January", "Feburary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-                datasets: [{
-                        label: "Pricipal Amount",
-                        backgroundColor: "#26B99A",
-                        data: [8100, 8100, 8100, 8200, 8200, 8300, 8300, 8400, 8400, 8500, 8500, 8600]
-                    },
-                    {
-                        label: "Interest Amount",
-                        backgroundColor: "#005161",
-                        data: [500, 500, 400, 400, 300, 300, 200, 200, 200, 100, 100, 50]
-                    }
-                ],
-
-            };
-            var ctx = document.getElementById("barchart");
-            var myDoughnutChart = new Chart(ctx, {
-                type: 'bar',
-                data: data,
-                options: Chart.defaults.doughnut
-            });
-
-        }
-    </script>
 </head>
 
 <body class="nav-md">
@@ -91,7 +37,7 @@
             <div class="col-md-3 left_col">
                 <div class="left_col scroll-view">
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                        <a class="site_title" href="index.html"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -99,7 +45,7 @@
                     <!-- menu profile quick info -->
                     <div class="profile clearfix">
                         <div class="profile_pic">
-                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                            <img alt="..." class="img-circle profile_img" src="images/img.jpg">
                         </div>
                         <div class="profile_info">
                             <span>Welcome,</span>
@@ -111,7 +57,7 @@
                     <br />
 
                     <!-- sidebar menu -->
-                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                    <div class="main_menu_side hidden-print main_menu" id="sidebar-menu">
                         <div class="menu_section">
                             <h3>General</h3>
                             <ul class="nav side-menu">
@@ -152,8 +98,8 @@
 
                         <ul class="nav navbar-nav navbar-right">
                             <li class="">
-                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <img src="images/img.jpg" alt="">John Doe
+                                <a aria-expanded="false" class="user-profile dropdown-toggle" data-toggle="dropdown" href="javascript:;">
+                                    <img alt="" src="images/img.jpg">John Doe
                                     <span class=" fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -169,15 +115,15 @@
                                 </ul>
                             </li>
 
-                            <li role="presentation" class="dropdown">
-                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                            <li class="dropdown" role="presentation">
+                                <a aria-expanded="false" class="dropdown-toggle info-number" data-toggle="dropdown" href="javascript:;">
                                     <i class="fa fa-envelope-o"></i>
                                     <span class="badge bg-green">6</span>
                                 </a>
-                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                <ul class="dropdown-menu list-unstyled msg_list" id="menu1" role="menu">
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
                                             <span>
                                                 <span>John Smith</span>
                                                 <span class="time">3 mins ago</span>
@@ -189,7 +135,7 @@
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
                                             <span>
                                                 <span>John Smith</span>
                                                 <span class="time">3 mins ago</span>
@@ -201,7 +147,7 @@
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
                                             <span>
                                                 <span>John Smith</span>
                                                 <span class="time">3 mins ago</span>
@@ -213,7 +159,7 @@
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
                                             <span>
                                                 <span>John Smith</span>
                                                 <span class="time">3 mins ago</span>
@@ -239,124 +185,92 @@
             </div>
             <!-- /top navigation -->
 
-            <!-- page content -->
             <div class="right_col" role="main">
-                <!-- top tiles -->
-                <div class="row tile_count">
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-usd"></i> Loan Amount</span>
-                        <div class="count">100,000</div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-usd"></i> Interest </span>
-                        <div class="count">3280</div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-clock-o"></i> Installments Paid</span>
-                        <div class="count">8</div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-usd"></i> Paid to Date</span>
-                        <div class="count green">80,000</div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-usd"></i> Remaining Amount</span>
-                        <div class="count">23,280</div>
-                    </div>
-                </div>
-                <!-- /top tiles -->
+                <div class="">
+                    <div class="clearfix"></div>
 
-                <div class="row">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_content">
 
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h2>Principal and Interest</h2>
-                                <ul class="nav navbar-right panel_toolbox">
-                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                    </li>
-                                </ul>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="x_content">
-                                <canvas id="donutchart"></canvas>
+                                    <form class="form-horizontal form-label-left" novalidate>
+
+                                        <span class="section">Allowances</span>
+
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input1">Loan Ammount
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input1" min="0" name="Medical" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input2">Travel
+                                                Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input2" min="0" name="Travel" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input3">Home Rent
+                                                Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input3" min="0" name="rent" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input4">Special
+                                                Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input4" min="0" name="special" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input5">Child Educ
+                                                Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input5" min="0" name="education" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input6">Servant Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input6" min="0" name="servant" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="ln_solid"></div>
+                                        <div class="form-group">
+                                            <div class="col-md-6 col-md-offset-3">
+                                                <button class="btn btn-primary" type="submit">Cancel</button>
+                                                <button class="btn btn-success" id="send" type="submit">Submit
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-
                     </div>
-
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h2>Principal and Interest</h2>
-                                <ul class="nav navbar-right panel_toolbox">
-                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                    </li>
-                                </ul>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="x_content">
-                                <canvas id="barchart"></canvas>
-                            </div>
-                        </div>
-
-                    </div>
-
                 </div>
-
-                <div class="col-md-12 col-sm-12 col-xs-12">
-
-                    <div class="x_content">
-                        <h2 class="text-muted font-13 m-b-30">
-                            Monthly Details
-                        </h2>
-                    </div>
-                    <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th>Month</th>
-                                <th>Beginning Balance</th>
-                                <th>Principal Amount</th>
-                                <th>Interest Amount</th>
-                                <th>Ending Balance</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Janruary</td>
-                                <td>$100,000</td>
-                                <td>$8106</td>
-                                <td>$500</td>
-                                <td>$91,893</td>
-                            </tr>
-                            <tr>
-                                <td>Feburary</td>
-                                <td>$91,893</td>
-                                <td>$8147</td>
-                                <td>$459</td>
-                                <td>$83,476</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                </div>
-
             </div>
         </div>
-        <!-- /page content -->
+    </div>
+    <!-- /page content -->
 
-        <!-- footer content -->
-        <footer>
-            <div class="pull-right">
-                HEMIS - <a href="index.html">Payroll System</a>
-            </div>
-            <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
-    </div>
-    </div>
+    <!-- footer content -->
+    <footer>
+        <div class="pull-right">
+            HEMIS - <a href="index.html">Payroll System</a>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+    <!-- /footer content -->
 
     <!-- jQuery -->
     <script src="../vendors/jquery/dist/jquery.min.js"></script>

@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/favicon.ico" type="image/ico" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="images/favicon.ico" rel="icon" type="image/ico" />
 
-    <title>Payroll System</title>
+    <title>Service</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -27,62 +27,8 @@
     <!-- bootstrap-daterangepicker -->
     <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
-    <!-- Chart.js -->
-    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
-
-
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
-
-
-    <script>
-        window.onload = function() {
-
-            // Doghnut Chart
-            data = {
-                datasets: [{
-                    backgroundColor: ["#26B99A", "#34495E"],
-                    data: [100000, 3280]
-                }],
-
-                labels: [
-                    'Principal Amount',
-                    'Interest'
-                ]
-            };
-            var ctx = document.getElementById("donutchart");
-            var myDoughnutChart = new Chart(ctx, {
-                type: 'doughnut',
-                data: data,
-                options: Chart.defaults.doughnut
-            });
-
-            // Bar Chart
-
-            data = {
-                labels: ["January", "Feburary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-                datasets: [{
-                        label: "Pricipal Amount",
-                        backgroundColor: "#26B99A",
-                        data: [8100, 8100, 8100, 8200, 8200, 8300, 8300, 8400, 8400, 8500, 8500, 8600]
-                    },
-                    {
-                        label: "Interest Amount",
-                        backgroundColor: "#005161",
-                        data: [500, 500, 400, 400, 300, 300, 200, 200, 200, 100, 100, 50]
-                    }
-                ],
-
-            };
-            var ctx = document.getElementById("barchart");
-            var myDoughnutChart = new Chart(ctx, {
-                type: 'bar',
-                data: data,
-                options: Chart.defaults.doughnut
-            });
-
-        }
-    </script>
 </head>
 
 <body class="nav-md">
@@ -91,7 +37,7 @@
             <div class="col-md-3 left_col">
                 <div class="left_col scroll-view">
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                        <a class="site_title" href="index.html"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
                     </div>
 
                     <div class="clearfix"></div>
@@ -99,7 +45,7 @@
                     <!-- menu profile quick info -->
                     <div class="profile clearfix">
                         <div class="profile_pic">
-                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                            <img alt="..." class="img-circle profile_img" src="images/img.jpg">
                         </div>
                         <div class="profile_info">
                             <span>Welcome,</span>
@@ -108,10 +54,10 @@
                     </div>
                     <!-- /menu profile quick info -->
 
-                    <br />
+                    <br/>
 
                     <!-- sidebar menu -->
-                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                    <div class="main_menu_side hidden-print main_menu" id="sidebar-menu">
                         <div class="menu_section">
                             <h3>General</h3>
                             <ul class="nav side-menu">
@@ -128,7 +74,7 @@
                                                 <li><a href="comparativereport.html">Comparative Report</a></li>
                                                 <li><a href="employeesreport.html">Employees Report</a></li>
                                                 <li><a href="incometaxreport.html">Income Tax Report</a></li>
-                                                
+
                                             </ul>
                                         </li>
                                     </ul>
@@ -136,6 +82,19 @@
                             </ul>
                         </div>
 
+                <!-- sidebar menu -->
+                <div class="main_menu_side hidden-print main_menu" id="sidebar-menu">
+                    <div class="menu_section">
+                        <h3>General</h3>
+                        <ul class="nav side-menu">
+                            <li><a><i class="fa fa-usd"></i> Payroll <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="index.php">Service</a></li>
+                                    <li><a href="loans.php">Loans</a></li>
+                                    <li><a href="reports.php">Reports</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                     <!-- /sidebar menu -->
 
@@ -152,8 +111,8 @@
 
                         <ul class="nav navbar-nav navbar-right">
                             <li class="">
-                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <img src="images/img.jpg" alt="">John Doe
+                                <a aria-expanded="false" class="user-profile dropdown-toggle" data-toggle="dropdown" href="javascript:;">
+                                    <img alt="" src="images/img.jpg">John Doe
                                     <span class=" fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -169,58 +128,58 @@
                                 </ul>
                             </li>
 
-                            <li role="presentation" class="dropdown">
-                                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                            <li class="dropdown" role="presentation">
+                                <a aria-expanded="false" class="dropdown-toggle info-number" data-toggle="dropdown" href="javascript:;">
                                     <i class="fa fa-envelope-o"></i>
                                     <span class="badge bg-green">6</span>
                                 </a>
-                                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                <ul class="dropdown-menu list-unstyled msg_list" id="menu1" role="menu">
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
                                             <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
                                             <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
                                             <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
                                             <span>
-                                                <span>John Smith</span>
-                                                <span class="time">3 mins ago</span>
+                        <span>John Smith</span>
+                                            <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                                                Film festivals used to be do-or-die moments for movie makers. They were where...
-                                            </span>
+                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                      </span>
                                         </a>
                                     </li>
                                     <li>
@@ -242,121 +201,169 @@
             <!-- page content -->
             <div class="right_col" role="main">
                 <!-- top tiles -->
-                <div class="row tile_count">
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-usd"></i> Loan Amount</span>
-                        <div class="count">100,000</div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-usd"></i> Interest </span>
-                        <div class="count">3280</div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-clock-o"></i> Installments Paid</span>
-                        <div class="count">8</div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-usd"></i> Paid to Date</span>
-                        <div class="count green">80,000</div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
-                        <span class="count_top"><i class="fa fa-usd"></i> Remaining Amount</span>
-                        <div class="count">23,280</div>
-                    </div>
-                </div>
+
                 <!-- /top tiles -->
 
                 <div class="row">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
-
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h2>Principal and Interest</h2>
-                                <ul class="nav navbar-right panel_toolbox">
-                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                    </li>
-                                </ul>
-                                <div class="clearfix"></div>
+                    <form action="index.php" method="GET">
+                        <div class="title_right">
+                            <input class="flat col-md-2" data-parsley-mincheck="2" id="loan" required type="checkbox" value="yes" /> Loan
+                            <div class="col-md-3 col-sm-9 col-xs-12">
+                                <select class="form-control">
+                                <option>Lower Limit Salary</option>
+                                <option>Option one</option>
+                                <option>Option two</option>
+                                <option>Option three</option>
+                                <option>Option four</option>
+                            </select>
                             </div>
-                            <div class="x_content">
-                                <canvas id="donutchart"></canvas>
+                            <div class="col-md-3 col-sm-9 col-xs-12">
+                                <select class="form-control">
+                                <option>Upper Limit Salary</option>
+                                <option>Option one</option>
+                                <option>Option two</option>
+                                <option>Option three</option>
+                                <option>Option four</option>
+                            </select>
                             </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h2>Principal and Interest</h2>
-                                <ul class="nav navbar-right panel_toolbox">
-                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                    </li>
-                                </ul>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="x_content">
-                                <canvas id="barchart"></canvas>
+                            <div class="col-md-3 col-sm-5 col-xs-12 form-group pull-right top_search">
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="Search for..." type="text">
+                                    <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                  </span>
+                                </div>
                             </div>
                         </div>
-
+<<<<<<< HEAD:production/index.php
                     </div>
 
-                </div>
-
-                <div class="col-md-12 col-sm-12 col-xs-12">
-
+                </form>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
                     <div class="x_content">
-                        <h2 class="text-muted font-13 m-b-30">
-                            Monthly Details
-                        </h2>
+                        <h1 class="text-muted font-13 m-b-30">
+                            Employees
+                        </h1>
                     </div>
-                    <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                    <table cellspacing="0" class="table table-striped table-bordered dt-responsive nowrap"
+                           id="datatable-responsive" width="100%">
                         <thead>
-                            <tr>
-                                <th>Month</th>
-                                <th>Beginning Balance</th>
-                                <th>Principal Amount</th>
-                                <th>Interest Amount</th>
-                                <th>Ending Balance</th>
-                            </tr>
+                        <tr>
+                            <th>Id</th>
+                            <th>First name</th>
+                            <th>Last name</th>
+                            <th>Position</th>
+                            <th>Grade</th>
+                            <th>Scale</th>
+                            <th>Office</th>
+                            <th>Employment Type</th>
+                            <th>Start date</th>
+                            <th>Date of expiry</th>
+                            <th colspan="3">Actions</th>
+                        </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>Janruary</td>
-                                <td>$100,000</td>
-                                <td>$8106</td>
-                                <td>$500</td>
-                                <td>$91,893</td>
-                            </tr>
-                            <tr>
-                                <td>Feburary</td>
-                                <td>$91,893</td>
-                                <td>$8147</td>
-                                <td>$459</td>
-                                <td>$83,476</td>
-                            </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Tiger</td>
+                            <td>Nixon</td>
+                            <td>System Architect</td>
+                            <td>17</td>
+                            <td>-</td>
+                            <td>Edinburgh</td>
+                            <td>Permanent</td>
+                            <td>2011/04/25</td>
+                            <td>-</td>
+                            <td>
+                                <a class="btn btn-primary btn-round" href="payslip.php">Pay Slip</a>
+                                <a class="btn btn-danger btn-round" href="allowance.php">Allowance</a>
+                                <a class="btn btn-dark btn-round" href="deduction.php">Deduction</a>
+                            </td>
+                        </tr>
                         </tbody>
                     </table>
 
                 </div>
+=======
 
+                    </form>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="x_content">
+                        <h1 class="text-muted font-13 m-b-30">
+                            Employees
+                        </h1>
+                    </div>
+                    <table cellspacing="0" class="table table-striped table-bordered dt-responsive nowrap" id="datatable-responsive" width="100%">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>First name</th>
+                                <th>Last name</th>
+                                <th>Position</th>
+                                <th>Grade</th>
+                                <th>Scale</th>
+                                <th>Office</th>
+                                <th>Employment Type</th>
+                                <th>Start date</th>
+                                <th>Date of expiry</th>
+                                <th>E-mail</th>
+                                <th colspan="3">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Tiger</td>
+                                <td>Nixon</td>
+                                <td>System Architect</td>
+                                <td>17</td>
+                                <td>-</td>
+                                <td>Edinburgh</td>
+                                <td>Permanent</td>
+                                <td>2011/04/25</td>
+                                <td>-</td>
+                                <td>t.nixon@datatables.net</td>
+                                <td>
+                                    <a class="btn btn-primary" href="payslip.html">Pay Slip</a>
+                                    <a class="btn btn-success" href="allowance.html">Allowance</a>
+                                    <a class="btn btn-dark" href="deduction.html">Deduction</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+>>>>>>> 75baa0865f29ff6dff843c13420d3bd2db5f05c4:production/index.html
             </div>
         </div>
-        <!-- /page content -->
+    </div>
+    <!-- /page content -->
 
-        <!-- footer content -->
-        <footer>
-            <div class="pull-right">
-                HEMIS - <a href="index.html">Payroll System</a>
-            </div>
-            <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
+<<<<<<< HEAD:production/index.php
+<!-- footer content -->
+<footer>
+    <div class="pull-right">
+        HEMIS - <a href="index.php">Payroll System</a>
     </div>
-    </div>
+    <div class="clearfix"></div>
+</footer>
+<!-- /footer content -->
+=======
+    <!-- footer content -->
+    <footer>
+        <div class="pull-right">
+            HEMIS - <a href="index.html">Payroll System</a>
+        </div>
+        <div class="clearfix"></div>
+    </footer>
+    <!-- /footer content -->
+>>>>>>> 75baa0865f29ff6dff843c13420d3bd2db5f05c4:production/index.html
+
 
     <!-- jQuery -->
     <script src="../vendors/jquery/dist/jquery.min.js"></script>
