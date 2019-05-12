@@ -9,7 +9,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="images/favicon.ico" rel="icon" type="image/ico" />
 
-    <title>Pay Slip</title>
+    <title>Allowance</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -54,7 +54,7 @@
                     </div>
                     <!-- /menu profile quick info -->
 
-                    <br/>
+                    <br />
 
                     <!-- sidebar menu -->
                     <div class="main_menu_side hidden-print main_menu" id="sidebar-menu">
@@ -74,7 +74,7 @@
                                                 <li><a href="comparativereport.html">Comparative Report</a></li>
                                                 <li><a href="employeesreport.html">Employees Report</a></li>
                                                 <li><a href="incometaxreport.html">Income Tax Report</a></li>
-
+                                                
                                             </ul>
                                         </li>
                                     </ul>
@@ -123,50 +123,50 @@
                                 <ul class="dropdown-menu list-unstyled msg_list" id="menu1" role="menu">
                                     <li>
                                         <a>
-                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
                                             <span>
-                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
+                                                <span>John Smith</span>
+                                                <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                      </span>
+                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                            </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
                                             <span>
-                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
+                                                <span>John Smith</span>
+                                                <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                      </span>
+                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                            </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
                                             <span>
-                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
+                                                <span>John Smith</span>
+                                                <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                      </span>
+                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                            </span>
                                         </a>
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img alt="Profile Image" src="images/img.jpg"/></span>
+                                            <span class="image"><img alt="Profile Image" src="images/img.jpg" /></span>
                                             <span>
-                        <span>John Smith</span>
-                                            <span class="time">3 mins ago</span>
+                                                <span>John Smith</span>
+                                                <span class="time">3 mins ago</span>
                                             </span>
                                             <span class="message">
-                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                      </span>
+                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                            </span>
                                         </a>
                                     </li>
                                     <li>
@@ -184,131 +184,84 @@
                 </div>
             </div>
             <!-- /top navigation -->
-            <!-- page content -->
+
             <div class="right_col" role="main">
-                <div class="col-md col-sm col-xs">
-                    <div class="x_panel">
-                        <div class="x_title">
-                            <h1>Salary</h1>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="x_content">
+                <div class="">
+                    <div class="clearfix"></div>
 
-                            <table class="table table-striped">
-                                <tbody>
-                                    <tr>
-                                        <th>Basic Salary</th>
-                                        <td>12,000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Allowance</th>
-                                        <td>12,000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Deduction</th>
-                                        <td>4,000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Salary</th>
-                                        <td>20,000</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_content">
 
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h1>Allowances</h1>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="x_content">
+                                    <form class="form-horizontal form-label-left" novalidate>
 
-                                <table class="table table-striped">
-                                    <tbody>
-                                        <tr>
-                                            <th>Medical Allowance</th>
-                                            <td>4,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Travel Allowance</th>
-                                            <td>2,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Home Rent Allowance</th>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Special Allowance</th>
-                                            <td>2,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Child Educ Allowance</th>
-                                            <td>3,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Servant Allowance</th>
-                                            <td>1,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Total allowances</th>
-                                            <td style="font-weight: bold">12,000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                        <span class="section">Allowances</span>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h1>Deductions</h1>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="x_content">
-
-                                <table class="table table-striped">
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">Professional Tax</th>
-                                            <td>1,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Income Tax</th>
-                                            <td>2,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Provident Fund</th>
-                                            <td>500</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Advances/Loans</th>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Other deductions</th>
-                                            <td>500</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Total deductions</th>
-                                            <td style="font-weight: bold">4,000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input1">Loan Ammount
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input1" min="0" name="Medical" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input2">Travel
+                                                Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input2" min="0" name="Travel" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input3">Home Rent
+                                                Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input3" min="0" name="rent" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input4">Special
+                                                Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input4" min="0" name="special" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input5">Child Educ
+                                                Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input5" min="0" name="education" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input6">Servant Allowance
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control col-md-7 col-xs-12" id="input6" min="0" name="servant" type="number" value="0">
+                                            </div>
+                                        </div>
+                                        <div class="ln_solid"></div>
+                                        <div class="form-group">
+                                            <div class="col-md-6 col-md-offset-3">
+                                                <button class="btn btn-primary" type="submit">Cancel</button>
+                                                <button class="btn btn-success" id="send" type="submit">Submit
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- /page content -->
         </div>
     </div>
+    <!-- /page content -->
 
     <!-- footer content -->
     <footer>

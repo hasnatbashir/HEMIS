@@ -9,7 +9,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="images/favicon.ico" rel="icon" type="image/ico" />
 
-    <title>Deduction</title>
+    <title>Payroll System</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -57,7 +57,7 @@
                     <br/>
 
                     <!-- sidebar menu -->
-                    <div class="main_menu_side hidden-print main_menu" id="sidebar-menu">
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                         <div class="menu_section">
                             <h3>General</h3>
                             <ul class="nav side-menu">
@@ -78,8 +78,6 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                </li>
-                            </ul>
                         </div>
 
                     </div>
@@ -185,60 +183,127 @@
             </div>
             <!-- /top navigation -->
 
+            <!-- page content -->
             <div class="right_col" role="main">
                 <div class="">
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>Report as per the Income Tax Law</h3>
+                        </div>
+                    </div>
                     <div class="clearfix"></div>
 
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>Income Tax Deduction Detail<small>Tax deduction varies in amount as different incomes 
+                                  are treated differently under various sections of income tax act. <br> 
+                                  Standard Deduction of Rs. 40,000 has been allowed for salaried taxpayers.</small> </h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
                                 <div class="x_content">
 
                                     <form class="form-horizontal form-label-left" novalidate>
 
-                                        <span class="section">Deductions</span>
+                                        <span class="section">The Pay/ Deduction/ Allowance reports should base on any of the following criteria</span>
 
                                         <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input1">Professional Tax
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="dep">Cost Center <span class="required">*</span>
                                         </label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input1" min="0" name="ptax" type="number" value="0">
+                                                <select name="campaign" class="optional form-control col-md-7 col-xs-12">
+                                                <option value="ABC">Production</option>
+                                                <option value="ABC">Administration</option>
+                                                <option value="ABC">Logistics</option>
+                                            </select>
                                             </div>
                                         </div>
+
                                         <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input2">Income Tax
-                                        </label>
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="dep">Employment Category <span class="required">*</span>
+                                            </label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input2" min="0" name="itax" type="number" value="0">
+                                                <select name="campaign" class="optional form-control col-md-7 col-xs-12">
+                                                    <option value="ABC">Permanent</option>
+                                                    <option value="ABC">Temporary</option>
+                                                    <option value="ABC">Contract</option>
+                                                </select>
                                             </div>
                                         </div>
+
                                         <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input3">Provident Fund
-                                        </label>
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="dep">Employment Status <span class="required">*</span>
+                                                </label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input3" min="0" name="fund" type="number" value="0">
+                                                <select name="campaign" class="optional form-control col-md-7 col-xs-12">
+                                                        <option value="ABC">Full Time</option>
+                                                        <option value="ABC">Part Time</option>
+                                                        <option value="ABC">Over Time</option>
+                                                    </select>
                                             </div>
                                         </div>
+
                                         <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input4">Advances/Loans
-                                        </label>
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="dep">Employee Scale <span class="required">*</span>
+                                                    </label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input4" min="0" name="advances" type="number" value="0">
+                                                <input id="dep" type="text" name="dep" class="optional form-control col-md-7 col-xs-12">
                                             </div>
                                         </div>
+
                                         <div class="item form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="input5">Other Deduction
-                                        </label>
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="dep">Employee Grade <span class="required">*</span>
+                                                        </label>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                <input class="form-control col-md-7 col-xs-12" id="input5" min="0" name="other" type="number" value="0">
+                                                <select name="campaign" class="optional form-control col-md-7 col-xs-12">
+                                                                <option value="ABC">Grade A</option>
+                                                                <option value="ABC">Grade B</option>
+                                                                <option value="ABC">Grade C</option>
+                                                            </select>
                                             </div>
                                         </div>
+
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="dep">Employment Position <span class="required">*</span>
+                                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <select name="campaign" class="optional form-control col-md-7 col-xs-12">
+                                                                    <option value="ABC">Project Manager</option>
+                                                                    <option value="ABC">Marketing Manager</option>
+                                                                    <option value="ABC">Web Developer</option>
+                                                                    <option value="ABC">Job Title</option>
+                                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="dep">Location <span class="required">*</span>
+                                                                </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <select name="campaign" class="optional form-control col-md-7 col-xs-12">
+                                                                        <option value="ABC">HQ</option>
+                                                                        <option value="ABC">Region</option>
+                                                                        <option value="ABC">Division</option>
+                                                                        <option value="ABC">Project</option>
+                                                                    </select>
+                                            </div>
+                                        </div>
+
+
                                         <div class="ln_solid"></div>
                                         <div class="form-group">
                                             <div class="col-md-6 col-md-offset-3">
-                                                <button class="btn btn-primary" type="submit">Cancel</button>
-                                                <button class="btn btn-success" id="send" type="submit">Submit
-                                            </button>
+                                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                                <button class="btn btn-primary" type="reset">Reset</button>
+                                                <button id="send" type="submit" class="btn btn-success">Submit</button>
                                             </div>
                                         </div>
                                     </form>
@@ -248,59 +313,57 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- /page content -->
+            <!-- /page content -->
 
-    <!-- footer content -->
-    <footer>
-        <div class="pull-right">
-            HEMIS - <a href="index.html">Payroll System</a>
-        </div>
-        <div class="clearfix"></div>
-    </footer>
-    <!-- /footer content -->
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    HEMIS - <a href="index.html">Payroll System</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
 
-    <!-- jQuery -->
-    <script src="../vendors/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- FastClick -->
-    <script src="../vendors/fastclick/lib/fastclick.js"></script>
-    <!-- NProgress -->
-    <script src="../vendors/nprogress/nprogress.js"></script>
-    <!-- Chart.js -->
-    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
-    <!-- gauge.js -->
-    <script src="../vendors/gauge.js/dist/gauge.min.js"></script>
-    <!-- bootstrap-progressbar -->
-    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
-    <!-- iCheck -->
-    <script src="../vendors/iCheck/icheck.min.js"></script>
-    <!-- Skycons -->
-    <script src="../vendors/skycons/skycons.js"></script>
-    <!-- Flot -->
-    <script src="../vendors/Flot/jquery.flot.js"></script>
-    <script src="../vendors/Flot/jquery.flot.pie.js"></script>
-    <script src="../vendors/Flot/jquery.flot.time.js"></script>
-    <script src="../vendors/Flot/jquery.flot.stack.js"></script>
-    <script src="../vendors/Flot/jquery.flot.resize.js"></script>
-    <!-- Flot plugins -->
-    <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
-    <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
-    <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
-    <!-- DateJS -->
-    <script src="../vendors/DateJS/build/date.js"></script>
-    <!-- JQVMap -->
-    <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
-    <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
-    <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
-    <!-- bootstrap-daterangepicker -->
-    <script src="../vendors/moment/min/moment.min.js"></script>
-    <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+            <!-- jQuery -->
+            <script src="../vendors/jquery/dist/jquery.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+            <!-- FastClick -->
+            <script src="../vendors/fastclick/lib/fastclick.js"></script>
+            <!-- NProgress -->
+            <script src="../vendors/nprogress/nprogress.js"></script>
+            <!-- Chart.js -->
+            <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+            <!-- gauge.js -->
+            <script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+            <!-- bootstrap-progressbar -->
+            <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+            <!-- iCheck -->
+            <script src="../vendors/iCheck/icheck.min.js"></script>
+            <!-- Skycons -->
+            <script src="../vendors/skycons/skycons.js"></script>
+            <!-- Flot -->
+            <script src="../vendors/Flot/jquery.flot.js"></script>
+            <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+            <script src="../vendors/Flot/jquery.flot.time.js"></script>
+            <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+            <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+            <!-- Flot plugins -->
+            <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+            <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+            <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+            <!-- DateJS -->
+            <script src="../vendors/DateJS/build/date.js"></script>
+            <!-- JQVMap -->
+            <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+            <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+            <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+            <!-- bootstrap-daterangepicker -->
+            <script src="../vendors/moment/min/moment.min.js"></script>
+            <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
 
-    <!-- Custom Theme Scripts -->
-    <script src="../build/js/custom.min.js"></script>
+            <!-- Custom Theme Scripts -->
+            <script src="../build/js/custom.min.js"></script>
 
 </body>
 

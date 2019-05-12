@@ -9,7 +9,7 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="images/favicon.ico" rel="icon" type="image/ico" />
 
-    <title>Pay Slip</title>
+    <title>Payroll System</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -57,7 +57,7 @@
                     <br/>
 
                     <!-- sidebar menu -->
-                    <div class="main_menu_side hidden-print main_menu" id="sidebar-menu">
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                         <div class="menu_section">
                             <h3>General</h3>
                             <ul class="nav side-menu">
@@ -78,8 +78,6 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                </li>
-                            </ul>
                         </div>
 
                     </div>
@@ -184,131 +182,145 @@
                 </div>
             </div>
             <!-- /top navigation -->
+
+
             <!-- page content -->
             <div class="right_col" role="main">
-                <div class="col-md col-sm col-xs">
-                    <div class="x_panel">
-                        <div class="x_title">
-                            <h1>Salary</h1>
-                            <div class="clearfix"></div>
+                <div class="">
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>Employees Arrears Report</h3>
                         </div>
-                        <div class="x_content">
 
-                            <table class="table table-striped">
-                                <tbody>
-                                    <tr>
-                                        <th>Basic Salary</th>
-                                        <td>12,000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Allowance</th>
-                                        <td>12,000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Deduction</th>
-                                        <td>4,000</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">Salary</th>
-                                        <td>20,000</td>
-                                    </tr>
-                                </tbody>
-                            </table>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h1>Allowances</h1>
+
+                        <!-- form input knob -->
+                        <div class="col-md-12">
+                            <div class="x_panel">
+                                <div class="x_title">
+
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="x_panel">
+
+                                        <div class="x_content">
+
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th>#</th>
+                                                        <th>Employee ID</th>
+                                                        <th>Employee Name</th>
+                                                        <th>Current Arrears</th>
+                                                        <th>Total Arrears</th>
+                                                        <th>Maximum Amount</th>
+                                                        <th>Deduction Amount</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>0063</td>
+                                                        <td>Abdullah</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>0064</td>
+                                                        <td>Fatima</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>0065</td>
+                                                        <td>Hasnat</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">4</th>
+                                                        <td>0066</td>
+                                                        <td>Omar</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">5</th>
+                                                        <td>0067</td>
+                                                        <td>Raza</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">6</th>
+                                                        <td>0068</td>
+                                                        <td>Rizwan</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">7</th>
+                                                        <td>0069</td>
+                                                        <td>Haniya</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">8</th>
+                                                        <td>0070</td>
+                                                        <td>Haya</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                        <td>0.0</td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="clearfix"></div>
-                            </div>
-                            <div class="x_content">
 
-                                <table class="table table-striped">
-                                    <tbody>
-                                        <tr>
-                                            <th>Medical Allowance</th>
-                                            <td>4,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Travel Allowance</th>
-                                            <td>2,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Home Rent Allowance</th>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Special Allowance</th>
-                                            <td>2,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Child Educ Allowance</th>
-                                            <td>3,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Servant Allowance</th>
-                                            <td>1,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Total allowances</th>
-                                            <td style="font-weight: bold">12,000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
 
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h1>Deductions</h1>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="x_content">
+                        <!-- /form input knob -->
 
-                                <table class="table table-striped">
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">Professional Tax</th>
-                                            <td>1,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Income Tax</th>
-                                            <td>2,000</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Provident Fund</th>
-                                            <td>500</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Advances/Loans</th>
-                                            <td>0</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Other deductions</th>
-                                            <td>500</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">Total deductions</th>
-                                            <td style="font-weight: bold">4,000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-
-                            </div>
-                        </div>
                     </div>
+
                 </div>
             </div>
-            <!-- /page content -->
         </div>
     </div>
+    <!-- /page content -->
+
 
     <!-- footer content -->
     <footer>
