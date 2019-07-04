@@ -71,16 +71,14 @@
                                     <ul class="nav child_menu">
                                         <li><a href="index.php">Service</a></li>
                                         <li><a href="loans.php">Loans</a></li>
-                                        <li class="nav subside-menu">
-                                            <a> Reports <span class="fa fa-chevron-down"></span></a>
-                                            <ul class="nav side-menu">
+                                        <li><a> Reports <span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
                                                 <li><a href="editreport.php">Edit Report</a></li>
                                                 <li><a href="paymentreport.php">Payment Report</a></li>
                                                 <li><a href="arrearreport.php">Arrear Report</a></li>
                                                 <li><a href="comparativereport.php">Comparative Report</a></li>
                                                 <li><a href="employeesreport.php">Employees Report</a></li>
                                                 <li><a href="incometaxreport.php">Income Tax Report</a></li>
-                                                
                                             </ul>
                                         </li>
                                     </ul>
@@ -134,51 +132,56 @@
                 <!-- /top tiles -->
 
                 <div class="row">
-                </div>
-                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h1>Loans</h1>
+                                <!--                        <div class="clearfix"></div>-->
+                            </div>
+                            <a href="newloan.php" class="btn btn-success">Add a new loan details</a>
+                            <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                                <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Loan Type</th>
+                                    <th>Principal Amount</th>
+                                    <th>Recovery Rate</th>
+                                    <th>Recovery Amount</th>
+                                    <th>Outstanding Balance</th>
+                                    <th>Installments Paid</th>
+                                    <th>Paid to Date</th>
+                                    <th>Interest Rate</th>
+                                    <th>Interest Amount</th>
 
-                    <div class="x_content">
-                        <h1 class="text-muted font-13 m-b-30">
-                            Loans
-                        </h1>
+                                    <th colspan="2">Actions</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php
+                                for ($i=0; $i<20; $i++){ ?>
+                                    <tr>
+                                        <td>Tiger Nixon</td>
+                                        <td>Advance</td>
+                                        <td>100,000</td>
+                                        <td>80%</td>
+                                        <td>23,280</td>
+                                        <td>23,280</td>
+                                        <td>8</td>
+                                        <td>80,000</td>
+                                        <td>6%</td>
+                                        <td>3280</td>
+                                        <td><a href="loandetails.php" class="btn btn-success">Details</a></td>
+                                    </tr>
+                                    <?php
+                                }
+                                ?>
+                                </tbody>
+                            </table>
+
+                        </div>
                     </div>
-                    <a href="newloan.php" class="btn btn-success">Add a new loan details</a>
-                    <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Loan Type</th>
-                                <th>Principal Amount</th>
-                                <th>Recovery Rate</th>
-                                <th>Recovery Amount</th>
-                                <th>Outstanding Balance</th>
-                                <th>Installments Paid</th>
-                                <th>Paid to Date</th>
-                                <th>Interest Rate</th>
-                                <th>Interest Amount</th>
-
-                                <th colspan="2">Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Tiger Nixon</td>
-                                <td>Advance</td>
-                                <td>100,000</td>
-                                <td>80%</td>
-                                <td>23,280</td>
-                                <td>23,280</td>
-                                <td>8</td>
-                                <td>80,000</td>
-                                <td>6%</td>
-                                <td>3280</td>
-                                <td><a href="loandetails.php" class="btn btn-success">Details</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
                 </div>
-            </div>
+
         </div>
         <!-- /page content -->
 

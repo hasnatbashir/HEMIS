@@ -65,16 +65,14 @@
                                     <ul class="nav child_menu">
                                         <li><a href="index.php">Service</a></li>
                                         <li><a href="loans.php">Loans</a></li>
-                                        <li class="nav subside-menu">
-                                            <a> Reports <span class="fa fa-chevron-down"></span></a>
-                                            <ul class="nav side-menu">
+                                        <li><a> Reports <span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
                                                 <li><a href="editreport.php">Edit Report</a></li>
                                                 <li><a href="paymentreport.php">Payment Report</a></li>
                                                 <li><a href="arrearreport.php">Arrear Report</a></li>
                                                 <li><a href="comparativereport.php">Comparative Report</a></li>
                                                 <li><a href="employeesreport.php">Employees Report</a></li>
                                                 <li><a href="incometaxreport.php">Income Tax Report</a></li>
-
                                             </ul>
                                         </li>
                                     </ul>
@@ -124,133 +122,135 @@
 
 
         <!-- page content -->
-        <div class="right_col" role="main">
-            <div class="">
-                <div class="page-title">
-                    <div class="title_left">
-                        <h3>Cost Centre wise Comparative Report</h3>
-                    </div>
+       <div class="row">
+           <div class="right_col" role="main">
+               <div class="">
+                   <div class="page-title">
+                       <div class="title_left">
+                           <h3>Cost Centre wise Comparative Report</h3>
+                       </div>
 
 
 
-                    <!-- form input knob -->
-                    <div class="col-md-12">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h2>Report contains the summary of previous and current month payments along with the <br> deduction amount of each employee</h2>
-                                <ul class="nav navbar-right panel_toolbox">
-                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                    </li>
-                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
-                                    </li>
-                                </ul>
-                                <div class="clearfix"></div>
-                            </div>
+                       <!-- form input knob -->
+                       <div class="col-md-12">
+                           <div class="x_panel">
+                               <div class="x_title">
+                                   <h2>Report contains the summary of previous and current month payments along with the <br> deduction amount of each employee</h2>
+                                   <ul class="nav navbar-right panel_toolbox">
+                                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                       </li>
+                                       <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                       </li>
+                                   </ul>
+                                   <div class="clearfix"></div>
+                               </div>
 
-                            <div class="col-md-12 col-sm-12 col-xs-12">
-                                <div class="x_panel">
+                               <div class="col-md-12 col-sm-12 col-xs-12">
+                                   <div class="x_panel">
 
-                                    <div class="x_content">
+                                       <div class="x_content">
 
-                                        <table class="table table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <th>Employee ID</th>
-                                                    <th>Employee Name</th>
-                                                    <th>Previous Month Payments</th>
-                                                    <th>Deduction Amount</th>
-                                                    <th>Current Month Payments</th>
-                                                    <th>Deduction Amount</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>0063</td>
-                                                    <td>Abdullah</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <td>0064</td>
-                                                    <td>Fatima</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3</th>
-                                                    <td>0065</td>
-                                                    <td>Hasnat</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">4</th>
-                                                    <td>0066</td>
-                                                    <td>Omar</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">5</th>
-                                                    <td>0067</td>
-                                                    <td>Raza</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">6</th>
-                                                    <td>0068</td>
-                                                    <td>Rizwan</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                    <td>0.0</td>
-                                                </tr>
+                                           <table class="table table-striped">
+                                               <thead>
+                                               <tr>
+                                                   <th>#</th>
+                                                   <th>Employee ID</th>
+                                                   <th>Employee Name</th>
+                                                   <th>Previous Month Payments</th>
+                                                   <th>Deduction Amount</th>
+                                                   <th>Current Month Payments</th>
+                                                   <th>Deduction Amount</th>
+                                               </tr>
+                                               </thead>
+                                               <tbody>
+                                               <tr>
+                                                   <th scope="row">1</th>
+                                                   <td>0063</td>
+                                                   <td>Abdullah</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                               </tr>
+                                               <tr>
+                                                   <th scope="row">2</th>
+                                                   <td>0064</td>
+                                                   <td>Fatima</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                               </tr>
+                                               <tr>
+                                                   <th scope="row">3</th>
+                                                   <td>0065</td>
+                                                   <td>Hasnat</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                               </tr>
+                                               <tr>
+                                                   <th scope="row">4</th>
+                                                   <td>0066</td>
+                                                   <td>Omar</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                               </tr>
+                                               <tr>
+                                                   <th scope="row">5</th>
+                                                   <td>0067</td>
+                                                   <td>Raza</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                               </tr>
+                                               <tr>
+                                                   <th scope="row">6</th>
+                                                   <td>0068</td>
+                                                   <td>Rizwan</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                                   <td>0.0</td>
+                                               </tr>
 
-                                                <tr>
-                                                    <th scope="row">
-                                                        Total:
-                                                    </th>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                </tr>
+                                               <tr>
+                                                   <th scope="row">
+                                                       Total:
+                                                   </th>
+                                                   <td></td>
+                                                   <td></td>
+                                                   <td></td>
+                                                   <td></td>
+                                                   <td></td>
+                                                   <td></td>
+                                               </tr>
 
-                                            </tbody>
-                                        </table>
+                                               </tbody>
+                                           </table>
 
-                                    </div>
-                                </div>
-                            </div>
+                                       </div>
+                                   </div>
+                               </div>
 
-                            <div class="clearfix"></div>
+                               <div class="clearfix"></div>
 
 
-                        </div>
-                    </div>
-                    <!-- /form input knob -->
+                           </div>
+                       </div>
+                       <!-- /form input knob -->
 
-                </div>
+                   </div>
 
-            </div>
-        </div>
-    </div>
+               </div>
+           </div>
+
+       </div>
     </div>
     <!-- /page content -->
 

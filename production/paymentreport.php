@@ -65,16 +65,14 @@
                                     <ul class="nav child_menu">
                                         <li><a href="index.php">Service</a></li>
                                         <li><a href="loans.php">Loans</a></li>
-                                        <li class="nav subside-menu">
-                                            <a> Reports <span class="fa fa-chevron-down"></span></a>
-                                            <ul class="nav side-menu">
+                                        <li><a> Reports <span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
                                                 <li><a href="editreport.php">Edit Report</a></li>
                                                 <li><a href="paymentreport.php">Payment Report</a></li>
                                                 <li><a href="arrearreport.php">Arrear Report</a></li>
                                                 <li><a href="comparativereport.php">Comparative Report</a></li>
                                                 <li><a href="employeesreport.php">Employees Report</a></li>
                                                 <li><a href="incometaxreport.php">Income Tax Report</a></li>
-
                                             </ul>
                                         </li>
                                     </ul>
